@@ -74,12 +74,12 @@ color: royalblue;
   grid-column: 1/4;
 }
 @media screen and (max-width:750px) {
-  .box{
+ /* .box{
     height: 20vmin;
     width:20vmin;
     font-size: 5vmin;
     border-radius: 5px;
-  }
+  }  */
   .game{
     padding:30% 0px 60px 0px;
     display: grid;
