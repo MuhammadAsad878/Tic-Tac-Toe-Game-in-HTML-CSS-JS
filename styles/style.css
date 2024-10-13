@@ -36,7 +36,10 @@ body{
 
 }
 .winner {
-  border: 4px solid yellow; 
+  background-color: royalblue !important;
+  color: white !important;
+  border: 4px solid black; 
+  box-shadow: 0px 0px 2px black;
 }
 .draw{
   border: 4px black solid;
@@ -50,6 +53,7 @@ button{
   cursor: pointer;
 }
 #msg{
+  box-shadow: 0px 4px 5px black;
   font-size: 1rem;
   padding: 5px;
 }
@@ -70,13 +74,22 @@ color: royalblue;
 }
 @media screen and (max-width:750px) {
   .box{
-    height: 6rem;
-    width: 6rem;
+    height: 24vmin;
+    width: 24vmin;
+    font-size: 5vmin;
+    border: 1px solid gray ;
+    border-radius: 5%;
   }
   .game{
-    gap:10%;
-    padding:10% 0px 100px 0px;
+    padding:30% 0px 60px 0px;
+    
+    display: grid;
+    grid-template-columns: repeat(3,26vmin);
+    grid-gap: 10px;
+    justify-content: center;
+  
   }
+
   .winner {
     border: 3px solid yellow; 
   }
