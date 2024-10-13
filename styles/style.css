@@ -82,8 +82,8 @@ color: royalblue;
   .game{
     padding:30% 0px 60px 0px;
     display: grid;
-    grid-template-columns: repeat(3,120px) !important;
-    grid-template-rows:repeat(3,120px) 40px!important;
+    grid-template-columns: repeat(3,100px) !important;
+    grid-template-rows:repeat(4,100px) 40px!important;
     grid-gap: 10px;
     justify-content: center;
   
