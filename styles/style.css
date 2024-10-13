@@ -1,0 +1,63 @@
+*{
+  padding: 0%;
+  margin: 0%;
+  text-align: center;
+}
+body{
+  background-color: rgba(255, 6, 201, 0.03);
+  
+}
+.box{
+  height: 18vmin;
+  width: 18vmin;
+  font-size: 5vmin;
+  border: 1px solid gray ;
+  border-radius: 5%;
+}
+.game{
+  display: grid;
+  grid-template-columns: repeat(3,18vmin);
+  grid-gap: 10px;
+  justify-content: center;
+
+}
+
+#new-btn{
+   width: 25vmin;
+   height: 10vmin;
+   font-size: 2vmin;
+  padding: 10px;
+  margin-top: 10px;
+  background-color: royalblue;
+  color: aliceblue;
+  border-radius: 5px;
+  border: solid 2px black;
+
+}
+.winner {
+  border: 4px solid yellow; 
+}
+.draw{
+  border: 4px black solid;
+}
+
+button:disabled{
+  background-color: white;
+  color: black;;
+}
+button{
+  cursor: pointer;
+}
+#msg{
+  font-size: 1rem;
+}
+h1 {
+  font-family: 'Proxima', sans-serif; /* 'sans-serif' as a fallback */
+  font-weight: bolder;
+  font-size: 2rem;
+color: royalblue;
+}
+#reset-btn{
+  margin: 5px;
+  padding: 5px;
+}

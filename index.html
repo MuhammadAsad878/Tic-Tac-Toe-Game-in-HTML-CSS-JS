@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/style.css" />
+    <title>Tic Tac Toe 07/30/2024</title>
+  </head>
+  <body>
+    <h1>Tic Tac Toe</h1>
+    <div class="container">
+      <p name="msg" id="msg">Welcome Start New Game</p>
+      <hr />
+      <div class="game">
+        <button class="box"></button>
+        <button class="box"></button>
+        <button class="box"></button>
+        <button class="box"></button>
+        <button class="box"></button>
+        <button class="box"></button>
+        <button class="box"></button>
+        <button class="box"></button>
+        <button class="box"></button>
+        <audio id="clickSound" src="sounds/click.mp3"></audio>
+        <audio id="winSound" src="sounds/win.mp3"></audio>
+        <audio id="drawSound" src="sounds/draw.wav"></audio>
+        <audio id="newGameSound" src="sounds/newGame.mp3"></audio>
+        <input type="range" id="volumeControl" min="0" max="1" step="0.01" value="1">
+
+      </div>
+      <button id="new-btn">New Game</button><br />
+      <button id="reset-btn">Reset</button>
+      <p id="Time">Loading Time..</p>
+    </div>
+
+    <script src="/js/script.js"></script>
+  </body>
+</html>
