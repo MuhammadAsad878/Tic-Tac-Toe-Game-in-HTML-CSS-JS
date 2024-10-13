@@ -18,7 +18,8 @@ body{
   padding: 30px;
   display: grid;
   grid-template-columns: repeat(3,18vmin);
-  grid-gap: 10px;
+  grid-template-rows: repeat(3,18vmin) 30px;
+grid-gap: 10px;
   justify-content: center;
 
 }
@@ -74,8 +75,8 @@ color: royalblue;
 }
 @media screen and (max-width:750px) {
   .box{
-    height: auto;
-    width:auto;
+    height: 20vmin;
+    width:20vmin;
     font-size: 5vmin;
     border-radius: 5px;
   }
@@ -83,7 +84,7 @@ color: royalblue;
     padding:30% 0px 60px 0px;
     display: grid;
     grid-template-columns: repeat(3,100px) !important;
-    grid-template-rows:repeat(4,100px) 40px!important;
+    grid-template-rows:repeat(3,100px) 40px!important;
     grid-gap: 10px;
     justify-content: center;
   
